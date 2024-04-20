@@ -1,0 +1,28 @@
+.top-container{
+    position: fixed;
+    top:0;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(167, 99, 47);
+    color:  rgb(157, 133, 114);
+
+}
+
+.scroll-progress-tracking-container{
+    width: 100%;
+    height: 10px;
+    background-color: #fff;
+    
+}
+
+.current-progress-bar{
+    height: 10px;
+    background-color:  rgb(157, 133, 114); 
+    width: 0%;
+    border-radius: 0px 10px 10px 0px ;
+}
+
+.data-container{
+    margin-top: 100px;
+}
