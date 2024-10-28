@@ -1,14 +1,14 @@
-.wrapper{
+.wrapper {
     padding: 8px;
 }
 
-.heading{
+.heading {
     display: flex;
     justify-content: center;
     margin-bottom: 12px;
 }
 
-.tab-item{
+.tab-item {
     display: inline-flex;
     font-size: 30px;
     font-weight: bold;
@@ -20,8 +20,15 @@
     background-color: #44364e;
 }
 
-.tab-item.active{
+.tab-item.active {
     border-color: #000;
     background: #a1d600;
-    
+    color: #fff;
+}
+
+.content {
+    padding: 20px 10px;
+    height: 300px;
+    overflow: auto;
+    background-color: #fff;
 }

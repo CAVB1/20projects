@@ -15,7 +15,7 @@ export default function Tabs({ tabsContent, onChange }) {
             <div className="heading">
                 {
                     tabsContent.map((tabItem, index) => (
-                        <div className={`tab-item ${currentTabIndex === index ? "active" :""}`} onClick={handleOnClick(index)} key={tabItem.label} >
+                        <div className={`tab-item ${currentTabIndex === index ? "active" :""}`} onClick={() => handleOnClick(index)} key={tabItem.label} >
                         <span className="label">{tabItem.label}</span>
                         </div>))
                 }
