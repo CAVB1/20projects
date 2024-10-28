@@ -3,5 +3,7 @@
 
 export default function Modal() {
 
-    return <div>Modal</div>
+    return <div>Hola Modal
+        
+    </div>
 }

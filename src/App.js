@@ -12,6 +12,7 @@ import './App.css';
 // import ScrollIndicator from './components/scroll-indicator';
 // import Tabs from './components/custom-tabs/tabs';
 import TabTest from './components/custom-tabs/tab-test';
+import ModalTest from './components/custom-modal-popup/modal-test';
 
 function App() {
   return (
@@ -45,7 +46,10 @@ function App() {
       {/* Custom tabs component */}
 
       {/* <TabTest/> */}
-      <TabTest/>
+      {/* <TabTest/> */}
+
+      {/* Custom Modal Popup Component */}
+      <ModalTest/>
 
 
     </div>
